@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "DM Mono", monospace;
+}
+
+body {
+    margin: 0;
+    background: #5E5E5E;
+    color: white;
+}
+
+.navbar {
+    height: 120px;
+    background: #474747;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.logo {
+    font-size: 28px;
+}
+
+.menu a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+.panel {
+    background: #474747;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    color: #00d9ff;
+}
+
+.sidebar .title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.content {
+    width: 70%;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.animation {
+    width: 70%;
+}
+
+.animation img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.frame-data {
+    width: 30%;
+}
+
+.frame-data p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.description {
+    font-size: 13px;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+.item-pick {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+
